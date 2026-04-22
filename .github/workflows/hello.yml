@@ -8,7 +8,7 @@ on:                      # ② トリガー（いつ動かすか）
 
 jobs:                    # ③ ジョブ（何をするか）
   hello:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latest # 使い捨て用のOSを指定(必須)
     steps:
       - name: チェックアウト
         uses: actions/checkout@v4
