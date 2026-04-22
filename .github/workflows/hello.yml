@@ -4,6 +4,7 @@ on:                      # ② トリガー（いつ動かすか）
   push:
     branches:
       - main
+  workflow_dispatch:
 
 jobs:                    # ③ ジョブ（何をするか）
   hello:
